@@ -5,7 +5,7 @@ description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/titere.jpg'
-background:         'assets/img/brain-potential-blog-post-e1573366318920.jpg'
+background:         'assets/img/fondohack.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://h4ckm1nd.github.io
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   h4ckm1nd
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -37,10 +37,10 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+email:              h4ckth3m1nd@gmail.com
 twitter:            h4ckm1nd
 #facebook:           username
-github-url:         username
+github-url:         h4ckm1nd
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
