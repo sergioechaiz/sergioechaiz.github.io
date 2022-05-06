@@ -2,7 +2,10 @@
 layout: post
 title:  "Maquina Lame"
 date:   2016-03-15
-excerpt: 
+excerpt: <left>
+
+![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png)
+</left>
 tag:
 - HTB 
 - Python
@@ -11,8 +14,8 @@ tag:
 - Buffer Over Flow
 comments: true
 ---
+## VNSDUILFSOLFSD
 ![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png)
-{: .image-left}
 
 Maquina Linux la cual vamos a estar explotando una vulnerabilidad jkhbsiudfgaiuslfbsf.
 
