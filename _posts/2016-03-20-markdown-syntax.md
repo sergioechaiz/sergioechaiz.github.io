@@ -12,8 +12,6 @@ tag:
 comments: true
 ---
 
-## HTML Elements
-![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png)
 
 Maquina Linux la cual vamos a estar explotando una vulnerabilidad jkhbsiudfgaiuslfbsf.
 
