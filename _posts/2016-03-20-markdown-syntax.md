@@ -2,7 +2,7 @@
 layout: post
 title:  "Maquina Lame"
 date:   2016-03-15
-excerpt: ![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png)
+excerpt: Maquina Linux la cual vamos a estar explotando una vuNErabilidad X.
 tag:
 - HTB 
 - Python
@@ -11,8 +11,7 @@ tag:
 - Buffer Over Flow
 comments: true
 ---
-##LAME
-![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png) class="izquierda"
+![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png)
 
 Maquina Linux la cual vamos a estar explotando una vulnerabilidad jkhbsiudfgaiuslfbsf.
 
