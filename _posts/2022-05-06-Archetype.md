@@ -30,7 +30,7 @@ El primer paso de todo es realizar un escaneo de la red para detectar posibles p
 
 > -sV=Detección version de servicios (Obtendremos la versión actual del servicio que corre por cada puerto
 
-![NMAP_SCAN](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/Imagenes/archetype_nmap%20scan1.png)
+![NMAP_SCAN](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/archetype_nmap%20scan1.png)
 
 Puertos Abiertos: 
 -	445: SMB
