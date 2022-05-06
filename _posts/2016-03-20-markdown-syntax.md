@@ -2,8 +2,9 @@
 layout: post
 title:  "Maquina Lame"
 date:   2016-03-15
-excerpt: "href=https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png
-"
+excerpt: "{% capture images %}
+    https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png
+{% endcapture %}"
 tag:
 - HTB 
 - Python
