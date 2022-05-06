@@ -2,7 +2,8 @@
 layout: post
 title:  "Maquina Lame"
 date:   2016-03-15
-excerpt: "![Lame]https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/blob/master/Capturas/Portadas/lame-portada.png"
+excerpt: "![Lame]https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png
+"
 tag:
 - HTB 
 - Python
