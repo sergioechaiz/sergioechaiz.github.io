@@ -6,7 +6,9 @@ date: 2022-03-21
 comments: false
 ---
     
-<b>H4ckM1nd</b></a> Es la pagina web personal de Alejandro Dominguez. Estudiante Ciberseguridad & Hacking Etico</center>
+H4ckM1nd Es la pagina web personal de Alejandro Dominguez. Estudiante Ciberseguridad & Hacking Etico
+
+<MARQUEE> Texto que se desplaza </MARQUEE>
 
 ## Acerca de mí:
 
