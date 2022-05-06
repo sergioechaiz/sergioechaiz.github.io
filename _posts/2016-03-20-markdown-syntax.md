@@ -11,7 +11,8 @@ tag:
 - Buffer Over Flow
 comments: true
 ---
-
+##LAME
+![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png) class="izquierda"
 
 Maquina Linux la cual vamos a estar explotando una vulnerabilidad jkhbsiudfgaiuslfbsf.
 
