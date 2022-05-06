@@ -2,7 +2,7 @@
 layout: post
 title:  "Maquina Lame"
 date:   2016-03-15
-excerpt: Maquina Linux la cual vamos a estar explotando una vuNErabilidad X.
+excerpt: 
 tag:
 - HTB 
 - Python
