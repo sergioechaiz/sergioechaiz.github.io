@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "Maquina Lame"
-date:   2016-03-15
+title:  "Starting Point ARCHETYPE"
+date:   2022-05-06
 excerpt: ![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png)
 tag:
 - HTB 
-- Python
-- Pivoting
-- Linux
-- Buffer Over Flow
+- Windows
+- SMB
+- SQL
+- EASY
 comments: true
 ---
-## Maquina Linux la cual vamos a estar explotando una vulnerabilidad jkhbsiudfgaiuslfbsf.
+## Maquina Windows : EASY!!
 ![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png)
 
 
