@@ -5,7 +5,7 @@ description:        "Pagina web personal de Alejandro Dominguez. Estudiante de C
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/titere.jpg'
-background:         'assets/img/fondohack.jpg'
+background:         'assets/img/hack1.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://h4ckm1nd.github.io
