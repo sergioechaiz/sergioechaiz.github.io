@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "ARCHETYPE_Starting Point"
+title:  "ARCHETYPE"
 date:   2022-05-06
-excerpt: 
+excerpt: dfgdgsdgsdfhgsfsgd
 tag:
 - HTB 
 - Windows
