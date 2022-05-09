@@ -2,7 +2,7 @@
 layout: post
 title:  "ARCHETYPE"
 date:   2022-05-06
-excerpt: dfgdgsdgsdfhgsfsgd
+excerpt:![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/ARCHETYPE/Archetype-portada.png)
 tag:
 - HTB 
 - Windows
@@ -11,7 +11,6 @@ tag:
 - EASY
 comments: true
 ---
-![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/ARCHETYPE/Archetype-portada.png)
 ## Dificultad: Easy
 
 ![LOGO]
