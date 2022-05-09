@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Starting Point ARCHETYPE"
+title:  "ARCHETYPE_Starting Point"
 date:   2022-05-06
 excerpt: 
 tag:
@@ -11,8 +11,8 @@ tag:
 - EASY
 comments: true
 ---
-![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/ARCHETYPE/logo%20maquina.png)
-## Maquina Windows Dificultad: Easy.
+![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/ARCHETYPE/Archetype-portada.png)
+## Dificultad: Easy
 
 ![LOGO]
 ## CONCEPTOS : Windows, SMB, SQL.
