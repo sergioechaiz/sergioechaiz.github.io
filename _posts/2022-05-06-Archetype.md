@@ -2,7 +2,7 @@
 layout: post
 title:  "ARCHETYPE Starting Point"
 date:   2022-05-06
-excerpt: Maquina Windows! Dificultad: Fácil
+excerpt: Maquina Windows Dificultad: Fácil
 tag:
 - HTB 
 - Windows
