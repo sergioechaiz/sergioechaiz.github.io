@@ -2,7 +2,7 @@
 layout: post
 title:  "Starting Point ARCHETYPE"
 date:   2022-05-06
-excerpt: ![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/Portadas/lame-portada.png)
+excerpt: ![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/ARCHETYPE/logo%20maquina.png)
 tag:
 - HTB 
 - Windows
@@ -13,8 +13,7 @@ comments: true
 ---
 ## Maquina Windows Dificultad: Easy.
 
-![LOGO](https://githubraw.com/H4ckM1nd/H4ckM1nd.github.io/master/Capturas/ARCHETYPE/logo%20maquina.png)
-
+![LOGO]
 ## CONCEPTOS : Windows, SMB, SQL.
 
 Maquina Windows donde podremos aprender a explotar una mala configuración en Microsoft SQL server tratando de conseguir una reverse shell y familiarizarnos un poco con el uso de las herramientas impacket que nos ayudaran mucho en el futuro para atacar un sinfín de servicios.
