@@ -12,7 +12,14 @@ H4ckM1nd Es la pagina web personal de Alejandro Dominguez. Estudiante Cibersegur
 
 ## Acerca de mí:
 
-<p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Alex Smith</h1>
+      <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
 
 Mi nombre es Alejandro Dominguez y estoy estudiando un curso de ciberseguridad & hacking etico.
 
