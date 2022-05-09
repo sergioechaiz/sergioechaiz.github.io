@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "ARCHETYPE"
+title:  "ARCHETYPE Starting-Point"
 date:   2022-05-06
-excerpt:![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/ARCHETYPE/Archetype-portada.png)
+excerpt: [Dificultad: Fácil]
 tag:
 - HTB 
 - Windows
@@ -11,10 +11,9 @@ tag:
 - EASY
 comments: true
 ---
-## Dificultad: Easy
+![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/ARCHETYPE/logo%20maquina.png)
 
-![LOGO]
-## CONCEPTOS : Windows, SMB, SQL.
+## CONCEPTOS : [Windows], [SMB], [SQL].
 
 Maquina Windows donde podremos aprender a explotar una mala configuración en Microsoft SQL server tratando de conseguir una reverse shell y familiarizarnos un poco con el uso de las herramientas impacket que nos ayudaran mucho en el futuro para atacar un sinfín de servicios.
 
