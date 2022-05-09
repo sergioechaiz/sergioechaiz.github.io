@@ -8,7 +8,7 @@ comments: false
     
 H4ckM1nd Es la pagina web personal de Alejandro Dominguez. Estudiante Ciberseguridad & Hacking Etico
 
-<MARQUEE> Texto que se desplaza </MARQUEE>
+<MARQUEE> Ciberseguridad & Hacking Ético </MARQUEE>
 
 ## Acerca de mí:
 
