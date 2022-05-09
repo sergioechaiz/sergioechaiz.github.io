@@ -12,6 +12,8 @@ H4ckM1nd Es la pagina web personal de Alejandro Dominguez. Estudiante Cibersegur
 
 ## Acerca de mí:
 
+<p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+
 Mi nombre es Alejandro Dominguez y estoy estudiando un curso de ciberseguridad & hacking etico.
 
 En este espacio podreis ver writeups de maquinas en plataformas como Hackthebox, Tryhackme, Vulnhub...
