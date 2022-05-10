@@ -2,7 +2,7 @@
 layout: post
 title:  "ARCHETYPE Starting Point"
 date:   2022-05-06
-excerpt: Maquina Windows Dificultad: Fácil
+excerpt: Maquina Windows Dificultad Fácil
 tag:
 - HTB 
 - Windows
@@ -11,6 +11,7 @@ tag:
 - EASY
 comments: true
 ---
+
 ![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/ARCHETYPE/logo%20maquina.png)
 
 ## CONCEPTOS : [Windows] [SMB] [SQL]
