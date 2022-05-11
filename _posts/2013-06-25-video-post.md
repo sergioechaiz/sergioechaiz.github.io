@@ -10,12 +10,28 @@ tag:
 - video
 comments: true
 ---
-<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
+`#!/bin/bash
 
-Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
+if [ -z "$1" ]
+then
+        echo -e  "\e[33m[*]-Use: ./nmapScan\e[0m" "\e[31m[<IP>]\e[0m"
+        exit 1
+fi
 
-Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
+printf "\n[*] Puertos Abiertos:\n\n" > OpenPorts
 
-{% highlight html %}
-<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
-{% endhighlight %}
+echo -e "\e[31m Escaneando Puertos Abiertos...\e[0m"
+
+sudo nmap -sS -p- --open --min-rate 5000 $1 -n -Pn | tail -n +5 | head -n -3 >> OpenPorts
+
+cat OpenPorts
+
+open_ports="$(cat OpenPorts | awk -F '/' '/open/{print $1}' | paste -s -d,)"
+
+printf "\n[*] Servicios corriendo:\n\n" > Targeted
+
+echo -e "\e[31m Escaneando Servicios...\e[0m"
+
+nmap -sC -sV -p $open_ports $1 >> Targeted
+
+cat Targeted`
