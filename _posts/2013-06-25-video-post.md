@@ -10,7 +10,8 @@ tag:
 - video
 comments: true
 ---
-`#!/bin/bash
+~~~~~~~~
+#!/bin/bash
 
 if [ -z "$1" ]
 then
@@ -34,4 +35,5 @@ echo -e "\e[31m Escaneando Servicios...\e[0m"
 
 nmap -sC -sV -p $open_ports $1 >> Targeted
 
-cat Targeted`
+cat Targeted
+~~~~~~
