@@ -1,7 +1,7 @@
 # Site navigation links
 
-- title: Projects
+- title: Herramientas
   url: /projects/
   
-- title: Herramientas
-  url: /herramientas/
+#title: Herramientas
+  #url: /herramientas/
