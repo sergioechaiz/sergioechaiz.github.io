@@ -14,3 +14,5 @@ comments: true
 sdfskhdufuishfiushui  loiusghdf iougf  iuhsad iuah  iuhauishd paiud
 
 msfvenom bla bla bla
+
+print nmap 
