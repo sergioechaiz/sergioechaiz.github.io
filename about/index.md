@@ -25,9 +25,11 @@ Mi idea con esta web es a traves de la resolucion de las maquinas que vaya reali
 
 Tambien ire subiendo herramientas interesantes que nos vayamos encontrando mientras resolvemos las maquinas y que nos ayuden en un futuro a aguilizar todo. Así como scripts, tipos de vulnerabilidades, informacion general sobre el sector... 
 
-Puedes echar un ojo a mi [Perfil de Github](https://github.com/H4ckM1nd){: .btn}, donde tambien ire subiendo herramientas, scripts...
+Puedes echar un ojo a mi [Perfil de Github](https://github.com/H4ckM1nd), donde tambien ire subiendo herramientas, Articulos, scripts...
 
-Asi como a mi [Perfil en Hackthebox](https://www.hackthebox.com/)
+Asi como a mi [Perfil en Hackthebox](https://www.hackthebox.com/badge/image/1021449)
+
+[Perfil HackTheBox](https://www.hackthebox.com/users/profile/1021449)
 
 Espero que esta web pueda ayudar tambien a la gente que se este iniciando.
 
@@ -36,4 +38,4 @@ Espero que esta web pueda ayudar tambien a la gente que se este iniciando.
 ## Getting Started
 
       
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+[Install Moon](https://github.com/TaylanTatli/Moon)
