@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Bug Bountys"
+title:  "Permisos SUID"
 date:   2022-05-11
-excerpt: "Recompensas."
+excerpt: "Abuso Permisos SUID"
 project: true
 tag:
 - sample
@@ -10,5 +10,9 @@ tag:
 - video
 comments: true
 ---
-~~~~~~~~
-Los bug bouters aon como cazarecompwnsas quwe lo unico que quiiewewn ws cinsweguir dineeio a cualquir precio.
+## PERMISOS SUID (Set User ID)
+
+
+
+
+
