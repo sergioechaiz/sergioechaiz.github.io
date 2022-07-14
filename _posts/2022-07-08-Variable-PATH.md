@@ -9,11 +9,13 @@ tag:
 - Linux
 - Explotación
 - Shell
+- Variables entorno
+- Variable PATH
 comments: true
 ---
 ~~~~~~~~
 
-##VARIABLE PATH:
+## VARIABLE PATH:
 
 PATH es una variable de entorno que especifica directorios que contienen programas ejecutables. 
 
@@ -35,19 +37,19 @@ Tambien podemos hacerlo directamente desde consola de la siguiente manera:
 
 -`export PATH=$PATH:/ruta`
 
-##EXPLOTACION VARIABLE PATH:
+## EXPLOTACION VARIABLE PATH:
 
-Existe una manera de explotacion mediante esta variable. Por ejemplo, si tenemos un binario SUID (Ejecuta programas con los privilegios del propietario) el cual ejecuta un comando como root. El truco está en volver a escribir la variable PATH en una ubicación de nuestra elección. Cuando el binario SUID llame al sistema para buscar y ejecutar el comando, ejecutara el que hayamos escrito en su lugar. De esta manera nos ejecutara nuestro comando con los mismos privilegios que el propietario del archivo SUID original, ósea como root.
+Existe una manera de aprovecharnos de este funcionamiento de la variable PATH y de como busca los binarios para su ejecucion y así poder escalar privilegios usando diferentes técnicas de explotacion. Por ejemplo, si tenemos un binario SUID (Ejecuta programas con los privilegios del propietario), el cual ejecuta un comando como root. El truco está en volver a escribir la variable PATH en una ubicación de nuestra elección. Cuando el binario SUID llame al sistema para buscar y ejecutar el comando, ejecutara el que hayamos escrito en su lugar. De esta manera nos ejecutara nuestro comando con los mismos privilegios que el propietario del archivo SUID original, ósea como root.
 
-EJEMPLO-->
+### EJEMPLO -->
 
-Localizamos un comando, en este caso "ls" el cual se ejecuta con permisos de root. Vamos a un directorio donde tengamos permisos de escritura como puede ser /tmp.
+Localizamos el comando que vayamos a suplantar, en este caso el comando de ejemplo será "ls", el cual se ejecuta con permisos de root. Vamos a un directorio donde tengamos permisos de escritura como puede ser /tmp.
 Una vez alli, creamos nuestro comando ejecutable de imitación. (Esta vez vamos a querer que nos ejecute una shell de bash suplantando el comando "ls").
 
 -`echo [comando queramos ejecutar] > [nombre comando original]`
 -`echo “/bin/bash” > ls`
 
-Le damos permisos de ejecución a este nuevo comando
+Le damos permisos de ejecución a este nuevo comando.
 
 -`chmod +x ls`
 
@@ -57,11 +59,12 @@ Cambiamos la variable PATH, para que apunte al directorio donde tenemos almacena
 
 Esto indica y pone en primer lugar del PATH y donde primero va a buscar el sistema a la ruta /tmp donde tenemos nuestro ejecutable "ls" de imitación con el comando shell.
 
-Ahora cada vez que ejecutemos el comando ls, nos abrirá una shell de bash como usuarios root. En caso de querer usar el comando original para listar contenido, deberemos usar el comando ls desde su raíz original /bin/ls donde se encuentra el ejecutable ls real o restablecer la variable PATH.
+Ahora cada vez que ejecutemos el comando ls, nos abrirá una shell de bash como usuarios root. En caso de querer usar el comando original para listar contenido, deberemos usar el comando "ls" desde su raíz original "/bin/ls" donde se encuentra el ejecutable "ls" real o restablecer la variable PATH.
 
 Para restablecer la variable PATH a sus valores predeterminados:
 
-exportPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:
+`exportPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:`
+
 
 
 
