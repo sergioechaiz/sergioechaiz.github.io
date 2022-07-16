@@ -12,14 +12,10 @@ H4ckM1nd Es la pagina web personal de Alejandro Dominguez. Estudiante Cibersegur
 
 ## Acerca de mí:
 
-<span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span>
+Mi nombre es Alejandro Dominguez y he realizado un curso de ciberseguridad & hacking etico.
 
-
-
-
-Mi nombre es Alejandro Dominguez y estoy estudiando un curso de ciberseguridad & hacking etico.
-
-En este espacio podreis ver writeups de maquinas en plataformas como Hackthebox, Tryhackme, Vulnhub...
+En este espacio podreis ver writeups de maquinas en plataformas como Hackthebox, Tryhackme, Vulnhub... Ademas de articulos relacionados con la ciberseguridad y 
+los topics que vayamos viendo en la realizacion de las maquinas y que sean interesantes.
 
 Mi idea con esta web es a traves de la resolucion de las maquinas que vaya realizando, poder plasmar lo que voy aprendiendo y ayudar a los que se esten iniciando en este mundo tan apasionante.
 
@@ -29,7 +25,7 @@ Puedes echar un ojo a mi [Perfil de Github](https://github.com/H4ckM1nd), donde 
 
 Asi como a mi [Perfil en Hackthebox](https://www.hackthebox.com/badge/image/1021449)
 
-[Perfil HackTheBox](https://www.hackthebox.com/users/profile/1021449)
+Y mí [Perfil Tryhackme](https://tryhackme.com/p/H4ckM1nd)
 
 Espero que esta web pueda ayudar tambien a la gente que se este iniciando.
 
