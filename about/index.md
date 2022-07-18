@@ -30,8 +30,3 @@ Tambien ire subiendo herramientas interesantes que nos vayamos encontrando mient
 Espero que esta web pueda ayudar tambien a la gente que se este iniciando.
 
 
-
-## Getting Started
-KK
-      
-[Install Moon](https://github.com/TaylanTatli/Moon)
