@@ -14,7 +14,7 @@ comments: true
 ---
 ## PERMISOS SUID (Set User ID)
 
-En Linux, SUID(establecer ID de usuario del propietario en la ejecución) es un tipo especial de permiso de archivo otorgado a un archivo. SUID otorga permisos temporales a un usuario para ejecutar el programa/archivo con los permisos del propietario del archivo, en lugar del usuario que lo ejecuta.
+En Linux, SUID(establecer ID de usuario del propietario en la ejecución) es un tipo especial de permiso de archivo otorgado a un archivo. SUID otorga permisos temporales a un usuario para ejecutar el programa/archivo con los permisos del propietario del archivo, en lugar del usuario que lo ejecuta. Es decir, si lo creo root tendremos permisos root.
 
 Por ejemplo, el archivo binario para cambiar su contraseña (/usr/bin/passwd), tiene el bit SUID. Esto se debe a que para cambiar su contraseña, deberá escribir en el archivo shadowers al que no tiene acceso, pero root sí. Por lo que se le otorga temporalmente privilegios de root para realizar los cambios correctos.
 
@@ -23,13 +23,15 @@ La forma de identificar que archivos poseen permisos SUID es mediante una "s" en
 Para asignar permisos SUID a un archivo deberemos ejecutar los siguientes comandos:
 
 `sudo chmod u+s [Nombre archivo]`
+
 `sudo chmod 4775 [Nombre archivo]`
 
-Una vez asignados los permisos SUID, silistamos el archivo. podemos observar que en la primera casilla de los permisos del propietario aparece una "s" en vez de una "x".
+Una vez asignados los permisos SUID, si listamos el archivo. podemos observar que en la primera casilla de los permisos del propietario aparece una "s" en vez de una "x".
 
 De igual modo podemos quitar los permisos de la siguiente forma:
 
 `sudo chmod u-s [Nombre archivo]`
+
 `sudo chmod 0755 [Nombre archivo]`
 
 Buscar permisos SUID:
@@ -65,7 +67,7 @@ Una vez localizado el binario que vamos a explotar y que vemos que cuenta con lo
 
 ![gtfobins](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/PERMISOS-SUID/BASE64%20gtfobins.png)
 
-Comprobamos por ejemplo que si intentamos acceder a leer el archivo /etc/shadow no contamos con los permisos suficientes para su lectura. Es ahora cuando entra en juego el exploit que encontramos en GTFOBins para el binario "base64" y que nos permitira leer este archivo sin ser root. Simplemente usamos los comandos que nos aparece en GTFOBins en nuestra terminal y... Done !!! Hemos posido leer un archivo del propietario root.
+Comprobamos por ejemplo que si intentamos acceder a leer el archivo /etc/shadow no contamos con los permisos suficientes para su lectura. Es ahora cuando entra en juego el exploit que encontramos en GTFOBins para el binario "base64" y que nos permitira leer este archivo sin ser root. Simplemente ejecutamos los comandos que nos aparecen en GTFOBins en nuestra terminal y... Done !!! Hemos posido leer un archivo del propietario root.
 
 ![explotacion](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/PERMISOS-SUID/explotacion%20binario%20base64%20suid.png)
 
