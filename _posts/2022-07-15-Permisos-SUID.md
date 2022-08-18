@@ -13,6 +13,7 @@ tag:
 comments: true
 ---
 ## PERMISOS SUID (Set User ID)
+![logo](https://githubraw.com/H4ckM1nd/h4ckm1nd.github.io/master/Capturas/PERMISOS-SUID/permisos%20suid%20logo.jpeg)
 
 En Linux, SUID(establecer ID de usuario del propietario en la ejecución) es un tipo especial de permiso de archivo otorgado a un archivo. SUID otorga permisos temporales a un usuario para ejecutar el programa/archivo con los permisos del propietario del archivo, en lugar del usuario que lo ejecuta. Es decir, si lo creo root tendremos permisos root.
 
