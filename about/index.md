@@ -8,18 +8,20 @@ comments: false
     
 H4ckM1nd Es la pagina web personal de Alejandro Dominguez. Estudiante Ciberseguridad & Hacking Etico
 
-<MARQUEE> Ciberseguridad & Hacking Ético </MARQUEE>
+<MARQUEE>RESOLUCIÓN DE MÁQUINAS & CTF & ARTICULOS</MARQUEE>
 
 ## Acerca de mí:
 
-Mi nombre es Alejandro Dominguez y he realizado un curso de ciberseguridad & hacking etico.
+Mi nombre es Alejandro Dominguez y me gusta todo lo relacionado con la Tecnologia, la Ciberseguridad, CTF, Hacking, Pentesting...
 
-En este espacio podreis ver writeups de maquinas en plataformas como Hackthebox, Tryhackme, Vulnhub... Ademas de articulos relacionados con la ciberseguridad y 
-los topics que vayamos viendo en la realizacion de las maquinas y que sean interesantes.
+En este espacio podreis ver WriteUps de maquinas en plataformas como Hackthebox, Tryhackme, Vulnhub... Ademas de articulos relacionados con la ciberseguridad y 
+los topics mas interesantes que vayamos viendo en la realizacion de las maquinas.
 
-Mi idea con esta web es a traves de la resolucion de las maquinas que vaya realizando, poder plasmar lo que voy aprendiendo y ayudar a los que se esten iniciando en este mundo tan apasionante.
+Mi idea con esta web es a traves de la resolucion de las maquinas que vaya realizando, poder plasmar e interiorizar mejor lo que voy aprendiendo, ademas de poder ayudar a los que se esten iniciando en este mundo tan apasionante.
 
-Tambien ire subiendo herramientas interesantes que nos vayamos encontrando mientras resolvemos las maquinas y que nos ayuden en un futuro a aguilizar todo. Así como scripts, tipos de vulnerabilidades, informacion general sobre el sector... 
+Tambien ire subiendo herramientas que nos vayamos encontrando y que nos ayuden a agilizar todo en un futuro, articulos sobre los temas mas interesantes qye tambien nos vayamos encontrando en la resolucion de la mqaquina y asi poder entender mejor que estaos haciendo y por que lo hacemos. Así como scripts, tipos de vulnerabilidades e informacion general sobre el sector.
+
+Os dejo por aqui tanto los links de mis perfiles en estas plataformas, como mi poerfil de github o del blog que tengo alojado en medium.
 
 [Perfil de Github](https://github.com/H4ckM1nd).
 
@@ -27,6 +29,8 @@ Tambien ire subiendo herramientas interesantes que nos vayamos encontrando mient
 
 [Perfil Tryhackme](https://tryhackme.com/p/H4ckM1nd).
 
-Espero que esta web pueda ayudar tambien a la gente que se este iniciando.
+[Blog H4ckM1nd](https://medium.com\@h4ckm1nd.com)
+
+Espero que os guste y disfruteis.
 
 
