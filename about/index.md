@@ -29,7 +29,7 @@ Os dejo por aqui tanto los links de mis perfiles en estas plataformas, como mi p
 
 [Perfil Tryhackme](https://tryhackme.com/p/H4ckM1nd).
 
-[Blog H4ckM1nd](https://medium.com\@h4ckm1nd.com)
+[Blog H4ckM1nd](https://medium.com\@h4ckm1nd)
 
 Espero que os guste y disfruteis.
 
