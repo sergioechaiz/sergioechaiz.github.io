@@ -5,7 +5,7 @@ description:        'Discover a personal website where you can access IT project
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/LogoSAEG.jpg'
-background:         'assets/img/logoNeuroHack11.jpg' 
+background:         'assets/img/network.jpg' 
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://sergioechaiz.github.io
