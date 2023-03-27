@@ -38,7 +38,7 @@ disqus_shortname:   sergioechaiz
   #ad-slot:
 #bing-verify:
 email:              echaiz@hotmail.es
-twitter:            https://www.twitter.com/sergio_echaiz
+twitter:            sergio_echaiz
 #facebook:           username
 github-url:         sergioechaiz
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
@@ -52,8 +52,8 @@ github-url:         sergioechaiz
 #foursquare:        username
 #steam:              username
 #dribbble:          username
-#youtube:           https://www.youtube.com/@sergioechaiz
-#youtube-channel:   channel
+#youtube:           @sergioechaiz
+#youtube-channel:   @sergioechaiz
 #soundcloud:        username
 #weibo:             username
 #flickr:            username
