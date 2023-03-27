@@ -1,14 +1,14 @@
 # Site
-title:              H4ckM1nd
+title:              Sergio Echaiz
 bio:                'Ciberseguridad & Hacking Ético.'
-description:        "Pagina web personal de Alejandro Dominguez. Estudiante de Ciberseguridad & Hacking Ético"
+description:        "Pagina web personal de Sergio Echaiz. Estudiante de Ciberseguridad & Hacking Ético"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/titere.jpg'
 background:         'assets/img/new3.jpeg' 
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://h4ckm1nd.github.io
+url:                https://sergioechaiz.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -37,10 +37,10 @@ disqus_shortname:   h4ckm1nd
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:              h4ckth3m1nd@gmail.com
-twitter:            h4ckm1nd
+email:              echaiz@hotmail.es
+twitter:            sergio.echaiz
 #facebook:           username
-github-url:         h4ckm1nd
+github-url:         sergioechaiz
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
