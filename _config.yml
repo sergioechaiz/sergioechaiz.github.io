@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   h4ckm1nd
+disqus_shortname:   sergioechaiz
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -38,11 +38,11 @@ disqus_shortname:   h4ckm1nd
   #ad-slot:
 #bing-verify:
 email:              echaiz@hotmail.es
-twitter:            sergio.echaiz
+twitter:            https://www.twitter.com/sergio_echaiz
 #facebook:           username
 github-url:         sergioechaiz
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+#linkedin:          https://www.linkedin.com/in/sergioechaiz
 #xing:              username
 #instagram:          username
 #lastfm:            username
@@ -52,7 +52,7 @@ github-url:         sergioechaiz
 #foursquare:        username
 #steam:              username
 #dribbble:          username
-#youtube:           username
+#youtube:           https://www.youtube.com/@sergioechaiz
 #youtube-channel:   channel
 #soundcloud:        username
 #weibo:             username
