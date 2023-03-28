@@ -1,36 +1,35 @@
 ---
 layout: page
-title: Acerca de H4ckM1nd
+title: Acerca de Sergio Echaiz
 tags: [about]
-date: 2022-03-21
+date: 2023-03-28
 comments: false
 ---
     
-H4ckM1nd Es la pagina web personal de Alejandro Dominguez. Estudiante Ciberseguridad & Hacking Etico
+My personal website serves as a platform for sharing step-by-step development of my main IT projects, utilizing open source solutions, and incorporating programmability and automation
 
-<MARQUEE>RESOLUCIÓN DE MÁQUINAS & CTF & ARTICULOS</MARQUEE>
+<MARQUEE>Network Programmability & Automation, Cybersecurity and Open Source solutions</MARQUEE>
 
-## Acerca de mí:
+## About Me:
 
-Mi nombre es Alejandro Dominguez y me gusta todo lo relacionado con la Tecnologia, la Ciberseguridad, CTF, Hacking, Pentesting...
+As an Information Technology enthusiast, I am passionate about working on the latest solutions in the market, particularly those focused on NetOps, CyberOps, and DevNet. 
 
-En este espacio podreis ver WriteUps de maquinas en plataformas como Hackthebox, Tryhackme, Vulnhub... Ademas de articulos relacionados con la ciberseguridad y 
-los topics mas interesantes que vayamos viendo en la realizacion de las maquinas.
+My expertise in network automation, programmability, and cybersecurity has motivated me to share my knowledge on these topics. I am passionate about collaborating with others who share similar interests and staying up-to-date with the latest advancements in technology. Let's work together to explore cutting-edge solutions and drive innovation forward.
 
-Mi idea con esta web es a traves de la resolucion de las maquinas que vaya realizando, poder plasmar e interiorizar mejor lo que voy aprendiendo, ademas de poder ayudar a los que se esten iniciando en este mundo tan apasionante.
+I encourage you to join me in creating a dynamic community to share and promote knowledge about the latest information technologies. Let's come together to cultivate an environment of learning and exploration that drives creativity.
 
-Tambien ire subiendo herramientas que nos vayamos encontrando y que nos ayuden a agilizar todo en un futuro, articulos sobre los temas mas interesantes qye tambien nos vayamos encontrando en la resolucion de la mqaquina y asi poder entender mejor que estaos haciendo y por que lo hacemos. Así como scripts, tipos de vulnerabilidades e informacion general sobre el sector.
+I am happy to provide you the links to my main social networks, where you can find more information about me:
 
-Os dejo por aqui tanto los links de mis perfiles en estas plataformas, como mi poerfil de github o del blog que tengo alojado en medium.
+[Github](https://www.github.com/sergioechaiz)
+[Youtube] (https://www.youtube.com/@sergioechaiz)
+[LinkedIn](https://www.linkedin.com/in/sergioechaiz)
+[Twitter](https://www.twitter.com/sergio_echaiz)
+[Hackthebox](https://app.hackthebox.com/profile/421011)
+[Tryhackme](https://tryhackme.com/p/saeg)
 
-[Perfil de Github](https://github.com/H4ckM1nd).
 
-[Perfil en Hackthebox](https://www.hackthebox.com/badge/image/1021449).
+I hope you like it and enjoy it.
 
-[Perfil Tryhackme](https://tryhackme.com/p/H4ckM1nd).
-
-[Blog H4ckM1nd](https://medium.com\@h4ckm1nd)
-
-Espero que os guste y disfruteis.
+Sergio Echaiz.
 
 
