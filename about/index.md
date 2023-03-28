@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Acerca de Sergio Echaiz
+title: Sergio Echaiz
 tags: [about]
 date: 2023-03-28
 comments: false
@@ -22,8 +22,6 @@ I am happy to provide you the links to my main social networks, where you can fi
 
 [Github](https://www.github.com/sergioechaiz)
 
-[youtube] (https://www.youtube.com/@sergioechaiz)
-
 [LinkedIn](https://www.linkedin.com/in/sergioechaiz)
 
 [Twitter](https://www.twitter.com/sergio_echaiz)
@@ -33,6 +31,7 @@ I am happy to provide you the links to my main social networks, where you can fi
 [Tryhackme](https://tryhackme.com/p/saeg)
 
 [Email](mailto:echaiz@hotmail.es)
+
 
 I hope you like it and enjoy it.
 
