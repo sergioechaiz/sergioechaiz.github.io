@@ -37,12 +37,13 @@ disqus_shortname:   sergioechaiz
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:              echaiz@hotmail.es
-twitter:            sergio_echaiz
-#facebook:           username
 github-url:         sergioechaiz
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 linkedin:          sergioechaiz
+youtube:           '@sergioechaiz'
+twitter:            sergio_echaiz
+email:              echaiz@hotmail.es
+#facebook:           username
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #xing:              username
 #instagram:          username
 #lastfm:            username
@@ -52,7 +53,6 @@ linkedin:          sergioechaiz
 #foursquare:        username
 #steam:              username
 #dribbble:          username
-youtube:           '@sergioechaiz'
 #youtube-channel:   channel
 #soundcloud:        username
 #weibo:             username

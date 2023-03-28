@@ -21,12 +21,18 @@ I encourage you to join me in creating a dynamic community to share and promote 
 I am happy to provide you the links to my main social networks, where you can find more information about me:
 
 [Github](https://www.github.com/sergioechaiz)
-[Youtube] (https://www.youtube.com/@sergioechaiz)
+
+[youtube] (https://www.youtube.com/@sergioechaiz)
+
 [LinkedIn](https://www.linkedin.com/in/sergioechaiz)
+
 [Twitter](https://www.twitter.com/sergio_echaiz)
+
 [Hackthebox](https://app.hackthebox.com/profile/421011)
+
 [Tryhackme](https://tryhackme.com/p/saeg)
 
+[Email](mailto:echaiz@hotmail.es)
 
 I hope you like it and enjoy it.
 
