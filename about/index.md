@@ -31,5 +31,3 @@ I am happy to provide you the links to my main social networks, where you can fi
 I hope you like it and enjoy it.
 
 Sergio Echaiz.
-
-
